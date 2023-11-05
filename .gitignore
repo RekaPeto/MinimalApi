@@ -13,3 +13,7 @@
 /.vs/ProjectEvaluation/minimalapi.projects.v7.bin
 /obj/Debug/net7.0
 /obj/Debug/net7.0/MinimalApi.csproj.CopyComplete
+/.vs/MinimalApi/v17/.suo
+/bin/Debug/net7.0/MinimalApi.dll
+/bin/Debug/net7.0/MinimalApi.pdb
+/obj/Debug/net7.0/ref/MinimalApi.dll
