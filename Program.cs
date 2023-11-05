@@ -5,7 +5,6 @@ using test.SecretSauce;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointDefinitions(typeof(IEndpointDefinition));
-//CustomerEndpointDefinition.DefineServices(builder.Services);
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -19,7 +18,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseEndpointDefinitions();
-//app.DefineEndpoints();
 
 app.Run();
 
