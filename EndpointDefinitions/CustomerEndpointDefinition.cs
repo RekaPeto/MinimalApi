@@ -1,12 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using test.Models;
 using test.Repositories;
+using test.SecretSauce;
 
 namespace test.EndpointDefinitions
 {
-    public static class CustomerEndpointDefinition
+    public class CustomerEndpointDefinition: IEndpointDefinition
     {
-        public static void DefineEndpoints(this IEndpointRouteBuilder app)
+        public void DefineEndpoints(WebApplication app)
         {
             app.MapGet("/customers", GetAll);
             app.MapGet("/customer/{id}", GetCustomerById);
@@ -50,7 +51,7 @@ namespace test.EndpointDefinitions
             return Results.Ok();
         }
 
-        public static void DefineServices(IServiceCollection services)
+        public void DefineServices(IServiceCollection services)
         {
             services.AddSingleton<ICustomerRepository, CustomerRepository>();
         }
