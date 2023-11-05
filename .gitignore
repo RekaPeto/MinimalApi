@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/.vs/MinimalApi
+/.vs/MinimalApi/FileContentIndex
+/.vs/MinimalApi/FileContentIndex/7a8088d2-cc54-44eb-b16e-a4da5d93f6fc.vsidx
+/.vs/MinimalApi/v17
+/.vs/MinimalApi/v17/.futdcache.v2
+/.vs/ProjectEvaluation
+/.vs/ProjectEvaluation/minimalapi.metadata.v7.bin
+/.vs/ProjectEvaluation/minimalapi.projects.v7.bin
+/obj/Debug/net7.0
+/obj/Debug/net7.0/MinimalApi.csproj.CopyComplete
